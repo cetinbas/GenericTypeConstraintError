@@ -1,0 +1,10 @@
+﻿@typeparam T where T : BaseClass, new()
+<h3>MyComponent</h3>
+
+@code {
+    private T someVar = new();
+    private T SomeFunc()
+    {
+        return someVar;
+    }
+}
